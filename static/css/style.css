@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    scrollbar-width: none;
+    height: auto;
+    background-color: #eeeeee;
+}
+
+
+body::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    display: none;
+    opacity: 0;
+}
+
+
+/* mainHeroContainer starts */
+
+.mainHeroContainer{
+    height: 100vh;
+    width: 100%;
+    background: url('/static/assets/backgrounds/mainBackground.png');
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainerInner{
+    height: 25rem;
+    width: 30rem;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px #00000015;
+}
+
+/* mainHeroContainer ends */
+
+/* topFooter starts */
+
+.topFooter{
+    height: 30rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #f9f9f9;
+}
+
+
+/* topFooter ends */
+
+/* footerBottom starts */
+
+/* .footerBottom{
+    height: 7rem;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eeeeee;
+} */
+
+/* footerBottom ends */
